@@ -1,0 +1,33 @@
+{
+  "name": "trabalho_faculdade",
+  "version": "1.0.0",
+  "description": "Programanção de site web viagens",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neuritos/Trabalho_faculdade.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "servidor",
+    "web",
+    "http",
+    "viagens",
+    "sessão"
+  ],
+  "author": "Gustavo Silva de Deus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neuritos/Trabalho_faculdade/issues"
+  },
+  "homepage": "https://github.com/Neuritos/Trabalho_faculdade#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
