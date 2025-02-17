@@ -8,7 +8,8 @@ export const pacotes = [
         descricao: "Pacote completo para o carnaval no Rio de Janeiro, com ingressos para os desfiles das escolas de samba.",
         duracao: "7 dias",
         localPartida: "São Paulo, SP",
-        quantidadeLugares: 50
+        quantidadeLugares: 50,
+        imagem: "rio.jpeg"
     },
     { 
         id: 2, 
@@ -19,7 +20,9 @@ export const pacotes = [
         descricao: "Descubra as praias paradisíacas de Fernando de Noronha com pacotes que incluem passeios de barco e snorkel.",
         duracao: "5 dias",
         localPartida: "Recife, PE",
-        quantidadeLugares: 30
+        quantidadeLugares: 30,
+        imagem: "fernando.jpeg"
+
     },
     { 
         id: 3, 
@@ -30,7 +33,8 @@ export const pacotes = [
         descricao: "A magia do Natal no sul do Brasil, com decorações temáticas e atrações especiais para a família.",
         duracao: "6 dias",
         localPartida: "Porto Alegre, RS",
-        quantidadeLugares: 40
+        quantidadeLugares: 40,
+        imagem: "gramado.jpeg"
     },
     { 
         id: 4, 
@@ -41,7 +45,8 @@ export const pacotes = [
         descricao: "Pacote para quem busca aventuras na natureza, com visitas a cavernas, rios cristalinos e cachoeiras.",
         duracao: "5 dias",
         localPartida: "Campo Grande, MS",
-        quantidadeLugares: 25
+        quantidadeLugares: 25,
+        imagem: "bonito.jpeg"
     },
     { 
         id: 5, 
@@ -52,7 +57,8 @@ export const pacotes = [
         descricao: "Aventuras de barco pela maior floresta tropical do mundo, com visitas a comunidades ribeirinhas e fauna exótica.",
         duracao: "7 dias",
         localPartida: "Manaus, AM",
-        quantidadeLugares: 20
+        quantidadeLugares: 20,
+        imagem: "amazonia.jpeg"
     },
     { 
         id: 6, 
@@ -63,7 +69,8 @@ export const pacotes = [
         descricao: "Uma expedição aos Lençóis Maranhenses, com passeios pelas dunas e lagoas cristalinas.",
         duracao: "6 dias",
         localPartida: "São Luís, MA",
-        quantidadeLugares: 35
+        quantidadeLugares: 35,
+        imagem: "maranhao.jpeg"
     },
     { 
         id: 7, 
@@ -74,7 +81,8 @@ export const pacotes = [
         descricao: "Explore a capital argentina com tours culturais e degustações de vinhos e pratos típicos da culinária local.",
         duracao: "5 dias",
         localPartida: "São Paulo, SP",
-        quantidadeLugares: 45
+        quantidadeLugares: 45,
+        imagem: "bueno.jpeg"
     },
     { 
         id: 8, 
@@ -85,7 +93,8 @@ export const pacotes = [
         descricao: "Pacote para os amantes de diversão nos famosos parques de Orlando, incluindo ingressos para Disney e Universal Studios.",
         duracao: "8 dias",
         localPartida: "São Paulo, SP",
-        quantidadeLugares: 60
+        quantidadeLugares: 60,
+        imagem: "orlando.jpeg"
     },
     { 
         id: 9, 
@@ -96,7 +105,8 @@ export const pacotes = [
         descricao: "Explore a arte, cultura e gastronomia de Paris, incluindo passeios pelos principais pontos turísticos e museus.",
         duracao: "6 dias",
         localPartida: "Rio de Janeiro, RJ",
-        quantidadeLugares: 30
+        quantidadeLugares: 30,
+        imagem: "paris.jpeg"
     },
     { 
         id: 10, 
@@ -107,7 +117,8 @@ export const pacotes = [
         descricao: "Vivencie a fusão entre o moderno e o tradicional em Tóquio, com visitas a templos e experiências futuristas.",
         duracao: "7 dias",
         localPartida: "São Paulo, SP",
-        quantidadeLugares: 15
+        quantidadeLugares: 15,
+        imagem: "toquio.jpeg"
     },
     { 
         id: 11, 
@@ -118,7 +129,8 @@ export const pacotes = [
         descricao: "Descubra a rica história de Barcelona com passeios pela arquitetura de Gaudí e pelas praias da cidade.",
         duracao: "6 dias",
         localPartida: "São Paulo, SP",
-        quantidadeLugares: 25
+        quantidadeLugares: 25,
+        imagem: "barcelona.jpeg"
     },
     { 
         id: 12, 
@@ -129,7 +141,8 @@ export const pacotes = [
         descricao: "Relaxe nas praias de águas cristalinas e explore as ruínas maias em Cancún.",
         duracao: "7 dias",
         localPartida: "São Paulo, SP",
-        quantidadeLugares: 40
+        quantidadeLugares: 40,
+        imagem: "cancun.jpeg"
     },
     { 
         id: 13, 
@@ -140,7 +153,8 @@ export const pacotes = [
         descricao: "Aproveite os encantos de Lisboa, com passeios por bairros históricos, museus e ótimos restaurantes.",
         duracao: "5 dias",
         localPartida: "São Paulo, SP",
-        quantidadeLugares: 20
+        quantidadeLugares: 20,
+        imagem: "lisboa.jpeg"
     },
     { 
         id: 14, 
@@ -151,7 +165,8 @@ export const pacotes = [
         descricao: "Explore o luxo de Dubai com visitas ao Burj Khalifa, safáris no deserto e compras nos shoppings mais luxuosos.",
         duracao: "6 dias",
         localPartida: "São Paulo, SP",
-        quantidadeLugares: 30
+        quantidadeLugares: 30,
+        imagem: "dubai.jpeg"
     },
     { 
         id: 15, 
@@ -162,6 +177,7 @@ export const pacotes = [
         descricao: "Uma jornada até Machu Picchu, com visitas a vilarejos andinos e trilhas históricas.",
         duracao: "8 dias",
         localPartida: "Lima, Peru",
-        quantidadeLugares: 25
+        quantidadeLugares: 25,
+        imagem: "machu.jpeg"
     }
 ]

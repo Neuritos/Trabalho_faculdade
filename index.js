@@ -12,6 +12,7 @@ app.set('view engine', 'ejs');
 app.set('views', './privado/views'); 
 
 app.use(express.urlencoded({extended: true}));
+app.use(express.static('public'));
 
     app.use(session({
         secret: "GojbHE8gclbP93LwkD",
