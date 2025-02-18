@@ -29,15 +29,12 @@ app.get("/login", (requisicao, resposta) => {
 
 
 
-//app.get("/detalhes", autenticar, (requisicao, resposta) => {
-//    resposta.sendFile(__dirname + "/publico/detalhes.html");
-//});
 app.get("/detalhes", autenticar, (requisicao, resposta) => {
-    const pacoteId = requisicao.query.id;  // Pega o ID do pacote da query string
-    const pacote = pacotes.find(pacote => pacote.id == pacoteId);  // Encontra o pacote correspondente
+    const pacoteId = requisicao.query.id;  
+    const pacote = pacotes.find(pacote => pacote.id == pacoteId);  
 
     if (pacote) {
-        resposta.render("detalhes", { pacote });  // Renderiza a página de detalhes passando os dados do pacote
+        resposta.render("detalhes", { pacote }); 
     } else {
         resposta.status(404).send("Pacote não encontrado");
     }
